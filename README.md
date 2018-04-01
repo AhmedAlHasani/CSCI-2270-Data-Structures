@@ -4,7 +4,7 @@ Data Structures at CU Boulder Summar 2017
 
 Taught by Samantha Molnar
 
-Data Structures Covered:
+# Data Structures Covered:
 
 Assignment 1: Pointers
 
@@ -16,7 +16,7 @@ Assignment 5: Graphs
 
 Assignment 6: Hash Maps
 
-Quizzes Covered:
+# Quizzes Covered:
 
 1- Double Linked List
 
