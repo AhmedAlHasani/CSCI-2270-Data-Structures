@@ -16,7 +16,8 @@ Assignment 5: Graphs
 
 Assignment 6: Hash Maps
 
-Quizzes Covered
+Quizzes Covered:
+
 1- Double Linked List
 
 2- Binary Search Trees
