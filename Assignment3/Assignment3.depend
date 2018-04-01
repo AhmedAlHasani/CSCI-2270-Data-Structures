@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1467350306 source:/home/user/Dropbox/CSCI2270/Assignment3/src/CommunicationNetwork.cpp
+	"CommunicationNetwork.h"
+	<iostream>
+	<sstream>
+	<fstream>
+
+1466447560 /home/user/Dropbox/CSCI2270/Assignment3/include/CommunicationNetwork.h
+	<iostream>
+
+1466466602 source:/home/user/Dropbox/CSCI2270/Assignment3/main.cpp
+	<iostream>
+	"CommunicationNetwork.h"
+	<iostream>
+	<sstream>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	"CommunicationNetwork.h"
+
+1466447560 /home/user/Dropbox/CSCI2270/Assignment3/CommunicationNetwork.h
+	<iostream>
+

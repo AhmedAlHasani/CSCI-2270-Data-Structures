@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1468825586 source:/home/user/Dropbox/CSCI2270/Assignment6/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdlib.h>
+	"HashTable.h"
+
+1468825578 /home/user/Dropbox/CSCI2270/Assignment6/include/HashTable.h
+	<string>
+	<vector>
+
+1468826231 source:/home/user/Dropbox/CSCI2270/Assignment6/src/HashTable.cpp
+	"HashTable.h"
+	<iostream>
+
+1468785641 /home/user/Dropbox/CSCI2270/Assignment6/HashTable.h
+	<string>
+	<vector>
+

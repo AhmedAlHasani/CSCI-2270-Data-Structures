@@ -1,0 +1,34 @@
+void HashTable::insertMovie(string name, int year)
+{
+    bool check = false;
+
+    int index = hashSum(name,tableSize);
+    HashElem* newMovie = new HashElem(name,year); //will hold the NEW movie with the same index
+
+    if (hashTable[index] == NULL)
+        hashTable[index]= newMovie;
+    else
+    {
+        HashElem* temp = hashTable[index]; //will hold the FIRST movie with the same index
+        while (temp != NULL)
+        {
+            if (temp->title == name && temp->year == year) //problem is here
+            {
+                cout<<"duplicate"<<endl;
+                check = true;
+                break;
+            }
+            else if (temp->next != NULL)
+            {
+                temp = temp->next;
+            }
+            else
+                break;
+        }
+        if (check == false)
+        {
+            newMovie->previous = temp;
+            temp->next = newMovie;
+        }
+    }
+}
